@@ -1,9 +1,6 @@
 # express-gateway 
 
 
-### Links
-
-### Version info
 
 Example use express-gateway for microservice
 #install and start app
@@ -13,12 +10,15 @@ step 2: install project with yarn
 step 3: start project
    + start service gateway : 
         - check port 80 has run, if run stop process use port 80
-        - node serve
+        - node server
    + start service : 
-      - cd /serives
-      - run node backend
+      - cd /serives /music
+      - run node music
+
+      - cd /serives /user
+      - run node user
 
 see website, go to url :
-   - http://localhost/user  for service user
-   - http://localhost/healthz  fro service shop
+   - http://localhost/api/heroes  for service user
+   - http://localhost/new  for service music
 
